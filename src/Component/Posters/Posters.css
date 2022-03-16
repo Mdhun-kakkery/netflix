@@ -1,0 +1,38 @@
+.row_post{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    /* padding: 1rem; */
+    color: white;
+  
+}
+
+.poster{
+    display:flex;
+   
+    padding: 1rem;
+
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+.poster::-webkit-scrollbar{
+    display: none;
+}
+.post{
+  max-height: 10rem;
+  
+
+}
+.post:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.pos{
+    padding: 1rem;
+}
+.vedio_window{
+    width: 100%;
+    padding-top: .4rem;
+    background-image: linear-gradient(180deg,transparent,rgba(131, 31, 24, 0.856),rgb(141, 21, 21));
+    text-align: center;
+    background-size: cover;
+}
