@@ -16,9 +16,9 @@ function Banner() {
     }, [])
 
     return (
-        <div  className='base-banner' style={{ backgroundImage: `url(${upComing ? ImgUrl + upComing.backdrop_path : ""})` }} >
+        <div  className='base-banner' style={{ backgroundImage: `url(${upComing ? ImgUrl + upComing.backdrop_path : ""} )` }} >
         <div className='row'>
-        <div className=' col-12'>
+            <div className=' col-12'>
         
                 <div className='banner' >
                 
@@ -34,8 +34,8 @@ function Banner() {
 
 
                 </div>
-            </div>
-        </div>
+             </div>
+         </div>
         </div>
     )
 }
